@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw data for NYC taxi rides"
+    database: kestra-sandbox-484910
+    schema: kestra_sandbox_484910_dataset
+    tables: 
+      - name: green_tripdata 
+      - name: yellow_tripdata
